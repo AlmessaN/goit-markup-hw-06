@@ -268,6 +268,7 @@ ul {
     justify-content: center;
   }
   .detail {
+    width: 270px;
     margin-right: 30px;
   }
   .container_second li:last-child {
@@ -299,7 +300,6 @@ ul {
     line-height: 0.8;
   }
   .text {
-    width: 270px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #757575;
@@ -829,6 +829,7 @@ ul {
   transform: translate(-50%, -50%);
   background: rgba(0, 0, 0, 0.2);
   z-index: 1;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .backdrop.is-hidden{
   opacity: 0;
@@ -862,4 +863,7 @@ border-radius: 4px;
 }
 .footer_end {
   display: flex;
+}
+.client- {
+  margin-right: 30px;
 }
